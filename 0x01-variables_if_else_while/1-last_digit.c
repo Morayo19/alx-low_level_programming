@@ -1,13 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - Prints a text according to number
+ * main - Prints a text according number
+ *
  * Return: Always (Success)
  */
 int main(void)
 {
-	int n;
+	int n, lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -28,3 +30,4 @@ int main(void)
 
 	return (0);
 }
+
