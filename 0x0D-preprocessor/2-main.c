@@ -1,12 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main- a program that retuens the name of the file it was compiled from
+ * main - Program prints the name of the file
  *
- * retun: 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-
-	printf("%s\n",__FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
