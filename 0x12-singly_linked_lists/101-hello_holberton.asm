@@ -1,13 +1,14 @@
-#include <stdio.h>
 
-/**main-print a line
-  *
-  *Return-Suxxess.
-  */
+	global   main
+	  extern    printf
+main:
+	  mov   edi, format
+	  xor   eax, eax
+	  call  printf
+	  mov   eax, 0
+	  ret
+format: db `Hello, Holberton\n`,0
 
-int main()
-{
-printf("Hello Holberton\n");
 
-Return(0);
-}
+
+
