@@ -3,8 +3,8 @@
 
 /**
  * read_textfile- This code reads text file to be printed
- * @letters: Number of letters to read.
  * @filename: Text file that is read.
+ * @letters: Number of letters to read.
  * Return: w- Number of bytes that is read and printed.
  *        0 when the filename is NULL or func fails.
  */
